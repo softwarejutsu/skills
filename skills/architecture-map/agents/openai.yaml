@@ -1,0 +1,6 @@
+interface:
+  display_name: "Architecture Map"
+  short_description: "Create evidence-based repository architecture maps"
+  default_prompt: "Use $architecture-map to create an accurate ARCHITECTURE.md for this repository."
+policy:
+  allow_implicit_invocation: true

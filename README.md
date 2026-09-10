@@ -23,6 +23,7 @@ npx skills add softwarejutsu/skills --skill create-agent-skill
 | Skill | Purpose |
 | --- | --- |
 | [`create-agent-skill`](skills/create-agent-skill/SKILL.md) | Create focused, maintainable Agent Skills using the standard format. |
+| [`architecture-map`](skills/architecture-map/SKILL.md) | Create evidence-based, contributor-oriented architecture maps. |
 
 ## Add a skill
 
@@ -33,6 +34,16 @@ Validate a new skill before committing:
 ```bash
 ./scripts/validate-skills.sh
 ```
+
+## Git hooks
+
+The repository includes a pre-commit hook that runs skill validation. Git does not activate hooks during `clone`, so run this once in every clone:
+
+```bash
+./scripts/install-git-hooks.sh
+```
+
+GitHub Actions runs the same validation on pull requests and pushes to `main`.
 
 ## License
 
