@@ -1,0 +1,6 @@
+interface:
+  display_name: "Create Agent Skill"
+  short_description: "Design concise, reusable Agent Skills"
+  default_prompt: "Use $create-agent-skill to create a focused skill for this workflow."
+policy:
+  allow_implicit_invocation: true
