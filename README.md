@@ -24,6 +24,7 @@ npx skills add softwarejutsu/skills --skill create-agent-skill
 | --- | --- |
 | [`create-agent-skill`](skills/create-agent-skill/SKILL.md) | Create focused, maintainable Agent Skills using the standard format. |
 | [`architecture-map`](skills/architecture-map/SKILL.md) | Create evidence-based, contributor-oriented architecture maps. |
+| [`detect-api-skew`](skills/detect-api-skew/SKILL.md) | Investigate frontend-backend API contract drift and stale-client risks. |
 
 ## Add a skill
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Detect API Skew"
+  short_description: "Find frontend-backend contract drift risks"
+  default_prompt: "Use $detect-api-skew to audit this repository for frontend-backend API skew risks."
